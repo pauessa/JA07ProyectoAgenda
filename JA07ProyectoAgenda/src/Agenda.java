@@ -9,5 +9,8 @@
  * @author pauessa
  */
 public class Agenda {
+    private int anyo;
+    private Pagina[] paginas;
+    public Pagina abierta;
     
 }
