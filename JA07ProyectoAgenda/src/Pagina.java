@@ -71,6 +71,7 @@ public class Pagina {
         }
         System.out.println(st.toString());
     }
+    
 
     public int getDia() {
         return dia;

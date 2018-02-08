@@ -46,6 +46,30 @@ public class Agenda {
             paginas[dia++] = new Pagina(i, 5);
 
         }
+        for (int i = 0; i <= 30; i++) {
+            paginas[dia++] = new Pagina(i, 6);
+
+        }
+        for (int i = 0; i <= 31; i++) {
+            paginas[dia++] = new Pagina(i, 7);
+
+        }
+        for (int i = 0; i <= 30; i++) {
+            paginas[dia++] = new Pagina(i, 8);
+
+        }
+        for (int i = 0; i <= 31; i++) {
+            paginas[dia++] = new Pagina(i, 9);
+
+        }
+        for (int i = 0; i <= 30; i++) {
+            paginas[dia++] = new Pagina(i, 10);
+
+        }
+        for (int i = 0; i <= 31; i++) {
+            paginas[dia++] = new Pagina(i, 11);
+
+        }
 
     }
 
@@ -64,6 +88,22 @@ public class Agenda {
         }
         return busqueda;
 
+    }
+
+    public int getAnyo() {
+        return anyo;
+    }
+
+    public void setAnyo(int anyo) {
+        this.anyo = anyo;
+    }
+
+    public Pagina getAbierta() {
+        return abierta;
+    }
+
+    public void setAbierta(Pagina abierta) {
+        this.abierta = abierta;
     }
 
 }
